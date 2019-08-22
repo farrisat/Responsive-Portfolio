@@ -19,7 +19,7 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: center;
     float: left;
-    margin-left: 16%;
+    margin-left: 17%;
     margin-top: 33px;
     z-index: 3;
    overflow: hidden;
@@ -95,7 +95,7 @@ img {
 .aboutme {
     text-align: left;
     line-height: 1.6;
-    margin-left: 50px;
+    margin-left: 18px;
     margin-right: 50px;
     padding: 0px;
 }
