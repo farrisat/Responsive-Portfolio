@@ -39,30 +39,44 @@ onclick="window.open('http://www.google.com')">
     
     <div class = clearfix>
          
-        <div class = "wrappercontact">
+         <div class = "wrappercontact"> 
         
            <h2 id = "bodytitle">Contact</h2>
+    
 
-            <form class="namebox">
-                Name<br>
-                <input type="text" name="Name" value="John Smith"><br>
-            </form>
+            <div class = "formformat">
+                <form>
+                    <div class = "contactfields">
+                         Name
+                        <br> 
+                             <input type = "text" name="name" placeholder="John Smith">
+                         <br>
+                        Email 
+                        <br>
+                            <input type = "text" name="email" placeholder="example@gmail.com">
+                        <br>
+                        Message 
+                        <br>
+                            <textarea name="Message" rows="10" cols="50" placeholder="Type your message here" id="messageBlock"></textarea>
+                        <br>
+                        
+                    </div>
+                    <button type ="submit" value = "submit">Submit</button>
+                    <form action="#" method="get">
 
-            <form class="emailbox">
-                    Email<br>
-                    <input type="text" name="Email" value = "example@gmail.com" ><br>
-             </form>
+                    
+                  
+                 </form>
+            </div>
+        </div>
+   </div>     
 
-             <form class="messagebox">
-                    Message<br>
-                    <input type="text" name="Message"><br>
-            </form>
+          
           
            
 
-        </div>
-    
-    </div>
+        
+   
 
 
 <!--footer -->
