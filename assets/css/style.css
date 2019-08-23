@@ -89,8 +89,10 @@ body {
 
 img {
     float: left;
-    margin: 10px;
-    padding: 3px;
+    margin-left: 20px;
+    margin-right: 18px;
+    margin-top: 8px;
+
 }
 
 .aboutme {
