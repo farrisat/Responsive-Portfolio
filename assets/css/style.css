@@ -19,7 +19,7 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: center;
     float: left;
-    margin-left: 17%;
+    margin-left: 16%;
     margin-top: 33px;
     z-index: 3;
    overflow: hidden;
@@ -52,6 +52,11 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: small;
     letter-spacing: 1px;
+    }
+
+/*navbar-border in navbar is a different color than font*/
+    .navborder {
+        color: #cccccc;
     }
 
 
@@ -102,7 +107,8 @@ img {
     height: 800px;
     margin-top: 140px;
     padding-top: 15px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
     margin-left: 16%;
     max-width: 960px;
     z-index: 4;
@@ -135,7 +141,7 @@ img {
     bottom: -229px;
     width: 250px;
     left: 13px;
-    font-weight:normal;
+    font-weight: normal;
     
 }
 
@@ -208,57 +214,70 @@ img {
     height: 800px;
     margin-top: 140px;
     padding-top: 15px;
+    padding-bottom: -150px;
+    margin-bottom:  200px;
     margin-left: 16%;
     max-width: 960px;
     z-index: 4;
     color: #777777;
+    border-color: #dddddd;
     text-align: left;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .formformat{
-    
-     margin-left: 16px;
-     width: 100%;
-     padding: 20lpx;
-     margin: 0;
-     display: inline-block;
-     border: none;
-     border-radius: 4px;
-     box-sizing: border-box;
+       margin-left: 16px;
+       margin-right: 16px;
 
 }
 
-.formformat input[type=text] {
-    color: #777777;
+input[type=text] {
     padding-left: 8px;
     padding-top:5px;
     padding-bottom: 5px;
     font-size: normal;
+    color: #777777;
 }
 
 .contactfields input {
     margin-top: 8px;
-    margin-bottom: 8px; 
+    margin-bottom: 14px; 
     width: 98.3%;
     height: 20px;
     display: inline-block;
+    
+    
     }
 
+textarea {
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 98.3%;
+    border-color:#dddddd;
+        
+     }
 
+#message {
+    color: #777777;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    margin: 0px;
 
+}
 
+button {
+    background-color: #4aaaa5;
+    color:white;
+    border: none;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 10px;
 
-    /* .button {
-  background-color: #4CAF50; /* Green 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-} */
+}
+  
 
 
 /* footer */
@@ -269,10 +288,9 @@ img {
     bottom: 0px;
     height: 50px;
     width: 100%;
-    color: #777777;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #dddddd;
+    color: #dddddd; /*changed the color to white b/c the general text color is too dark for the footer*/v
 }
 
 
@@ -280,11 +298,9 @@ img {
 
 /* 960pxwide for content width, overall page is 877 x400.531 (wxh) per Chrome dev */
 
-/* Questions:
-1. Difference between nav li and nav a
-*/
+
 
 /*Continuing Issues
 Copyright wrong color
-My nav switched order?
+My nav switched order? Reversed order in HTML to display correctly in browser
 My picture borders are opposite of ex!*/
